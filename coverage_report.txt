@@ -1,0 +1,39 @@
+Calculator Code Coverage Report
+=============================
+
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-8.3.5, pluggy-1.5.0 -- C:\Users\tjjjb7\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\tjjjb7\workspace\test\mcp_code_files
+plugins: anyio-4.9.0, cov-6.1.0
+collecting ... collected 19 items
+
+test_calculator.py::test_add_positive_numbers PASSED                     [  5%]
+test_calculator.py::test_add_negative_numbers PASSED                     [ 10%]
+test_calculator.py::test_add_mixed_numbers PASSED                        [ 15%]
+test_calculator.py::test_add_zero PASSED                                 [ 21%]
+test_calculator.py::test_subtract_positive_numbers PASSED                [ 26%]
+test_calculator.py::test_subtract_negative_numbers PASSED                [ 31%]
+test_calculator.py::test_subtract_mixed_numbers PASSED                   [ 36%]
+test_calculator.py::test_subtract_zero PASSED                            [ 42%]
+test_calculator.py::test_multiply_positive_numbers PASSED                [ 47%]
+test_calculator.py::test_multiply_negative_numbers PASSED                [ 52%]
+test_calculator.py::test_multiply_mixed_numbers PASSED                   [ 57%]
+test_calculator.py::test_multiply_by_zero PASSED                         [ 63%]
+test_calculator.py::test_divide_positive_numbers PASSED                  [ 68%]
+test_calculator.py::test_divide_negative_numbers PASSED                  [ 73%]
+test_calculator.py::test_divide_mixed_numbers PASSED                     [ 78%]
+test_calculator.py::test_divide_by_zero PASSED                           [ 84%]
+test_calculator.py::test_power_positive_base_and_exponent PASSED         [ 89%]
+test_calculator.py::test_power_negative_base_positive_exponent PASSED    [ 94%]
+test_calculator.py::test_power_zero_exponent PASSED                      [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.0-final-0 _______________
+
+Name            Stmts   Miss  Cover
+-----------------------------------
+calculator.py      13      0   100%
+-----------------------------------
+TOTAL              13      0   100%
+============================= 19 passed in 0.15s ==============================
