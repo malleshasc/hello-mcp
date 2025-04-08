@@ -14,7 +14,6 @@ class Calculator:
     
     def divide(self, a, b):
         """Divide a by b and return the result.
-        
         Raises:
             ZeroDivisionError: If b is 0.
         """
